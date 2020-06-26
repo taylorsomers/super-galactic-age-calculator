@@ -20,4 +20,9 @@ describe('CalculateAge', () => {
     expect(galacticAge.planetaryAges).toEqual([125,48,16,2]);
   });
 
+  test('should convert user-inputted age in Terrestrial years to Mercurial years', () => {
+    galacticAge.planetaryYears();
+    expect(galacticAge.planetaryYears[0]).toEqual(125);
+  });
+
 });
