@@ -44,4 +44,10 @@ describe('CalculateAge', () => {
     expect(jovianAge).toEqual(2);
   });
 
+  test('should convert number of Terrestrial years left until user reaches average human lifespan into Mercurial years', () => {
+    galacticAge.planetaryYearsLeft();
+    let mercurialYearsLeft = galacticAge.planetaryYearsLeft[0];
+    expect(mercurialYearsLeft).toEqual(175);
+  });
+
 });
