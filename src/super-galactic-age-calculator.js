@@ -18,4 +18,9 @@ export class GalacticAge {
     return martianAge;
   }
 
+  jovianAge() {
+    let jovianAge = parseInt((this.terrestrialAge*0.08).toFixed(0));
+    return jovianAge;
+  }
+
 }
