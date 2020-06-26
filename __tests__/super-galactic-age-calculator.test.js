@@ -72,4 +72,10 @@ describe('CalculateAge', () => {
     expect(jovianYearsLeft).toEqual(4);
   });
 
+  test('should calculate number of Terrestrial years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
+    let galacticSeniorAge = new GalacticAge(80);
+    galacticSeniorAge.terrestrialYearsLeft();
+    expect(galacticSeniorAge.terrestrialYearsLeft).toEqual("8 over");
+  });
+
 });
