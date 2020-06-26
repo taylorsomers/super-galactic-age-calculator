@@ -2,8 +2,10 @@ import { GalacticAge } from './../src/super-galactic-age-calculator.js';
 
 describe('CalculateAge', () => {
   let galacticAge;
+  let galacticSeniorAge;
   beforeEach(() => {
     galacticAge = new GalacticAge(30);
+    galacticSeniorAge = new GalacticAge(80);
   });
 
   test('should create a galacticAge object with a terrestrialAge property', () => {
@@ -73,13 +75,11 @@ describe('CalculateAge', () => {
   });
 
   test('should calculate number of Terrestrial years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
-    let galacticSeniorAge = new GalacticAge(80);
     galacticSeniorAge.terrestrialYearsLeft();
     expect(galacticSeniorAge.terrestrialYearsLeft).toEqual("8 over");
   });
 
   test('should calculate number of Mercurial years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
-    let galacticSeniorAge = new GalacticAge(80);
     galacticSeniorAge.planetaryYears();
     galacticSeniorAge.planetaryYearsLeft();
     let mercurialYearsLeft = galacticSeniorAge.planetaryYearsRemaining[0];
@@ -87,11 +87,10 @@ describe('CalculateAge', () => {
   });
 
   test('should calculate number of Venusian years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
-    let galacticSeniorAge = new GalacticAge(80);
     galacticSeniorAge.planetaryYears();
     galacticSeniorAge.planetaryYearsLeft();
     let venusianYearsLeft = galacticSeniorAge.planetaryYearsRemaining[1];
-    expect(venusianYearsLeft).toEqual("34 over");
+    expect(venusianYearsLeft).toEqual("13 over");
   });
 
 });
