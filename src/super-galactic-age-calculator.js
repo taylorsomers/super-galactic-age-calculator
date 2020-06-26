@@ -13,4 +13,9 @@ export class GalacticAge {
     return venusianAge;
   }
 
+  martianAge() {
+    let martianAge = parseInt((this.terrestrialAge*0.53).toFixed(0));
+    return martianAge;
+  }
+
 }
