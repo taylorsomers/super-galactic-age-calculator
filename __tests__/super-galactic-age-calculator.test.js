@@ -46,7 +46,7 @@ describe('CalculateAge', () => {
 
   test('should convert number of Terrestrial years left until user reaches average human lifespan into Mercurial years', () => {
     galacticAge.planetaryYearsLeft();
-    let mercurialYearsLeft = galacticAge.planetaryYearsLeft[0];
+    let mercurialYearsLeft = galacticAge.planetaryYearsRemaining[0];
     expect(mercurialYearsLeft).toEqual(175);
   });
 
