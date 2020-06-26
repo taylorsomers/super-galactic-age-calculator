@@ -10,22 +10,6 @@ describe('CalculateAge', () => {
     expect(galacticAge.terrestrialAge).toEqual(30);
   });
 
-  test('should convert terrestrialAge property of galacticAge object to Mercurial age', () => {
-    expect(galacticAge.mercurialYears()).toEqual(125);
-  });
-
-  test('should convert terrestrialAge property of galacticAge object to Venusian age', () => {
-    expect(galacticAge.venusianYears()).toEqual(48);
-  });
-
-  test('should convert terrestrialAge property of galacticAge object to Martian age', () => {
-    expect(galacticAge.martianYears()).toEqual(16);
-  });
-
-  test('should convert terrestrialAge property of galacticAge object to Jovian age', () => {
-    expect(galacticAge.jovianYears()).toEqual(2);
-  });
-
   test('should subtract inputted user age in Terrestrial years from average life expectancy in Terrestrial years', () => {
     galacticAge.terrestrialYearsLeft();
     expect(galacticAge.terrestrialYearsLeft).toEqual(42);
