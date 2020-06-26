@@ -40,7 +40,7 @@ describe('CalculateAge', () => {
 
   test('should convert user-inputted age in Terrestrial years to Jovian years', () => {
     galacticAge.planetaryYears();
-    let jovianAge = galacticAge.planetaryAges[2];
+    let jovianAge = galacticAge.planetaryAges[3];
     expect(jovianAge).toEqual(2);
   });
 
