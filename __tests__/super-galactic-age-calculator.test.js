@@ -26,4 +26,8 @@ describe('CalculateAge', () => {
     expect(galacticAge.jovianAge()).toEqual(2);
   });
 
+  test('should subtract inputted user age in Terrestrial years from average life expectancy in Terrestrial years', () => {
+    expect(galacticAge.terrestrialYearsLeft()).toEqual(42);
+  });
+
 });
