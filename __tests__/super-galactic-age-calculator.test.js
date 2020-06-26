@@ -22,7 +22,7 @@ describe('CalculateAge', () => {
 
   test('should convert user-inputted age in Terrestrial years to Mercurial years', () => {
     galacticAge.planetaryYears();
-    expect(galacticAge.planetaryYears[0]).toEqual(125);
+    expect(galacticAge.planetaryAges[0]).toEqual(125);
   });
 
 });
