@@ -26,4 +26,10 @@ describe('CalculateAge', () => {
     expect(mercurialAge).toEqual(125);
   });
 
+  test('should convert user-inputted age in Terrestrial years to Venusian years', () => {
+    galacticAge.planetaryYears();
+    let venusianAge = galacticAge.planetaryAges[1];
+    expect(venusianAge).toEqual(48);
+  });
+
 });
