@@ -14,4 +14,8 @@ describe('CalculateAge', () => {
     expect(galacticAge.mercurialAge()).toEqual(125.1);
   });
 
+  test('should convert terrestrialAge property of galacticAge object to Venusian age', () => {
+    expect(galacticAge.venusianAge()).toEqual(48.3);
+  });
+
 });
