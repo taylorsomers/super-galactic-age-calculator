@@ -18,4 +18,8 @@ describe('CalculateAge', () => {
     expect(galacticAge.venusianAge()).toEqual(48);
   });
 
+  test('should convert terrestrialAge property of galacticAge object to Martian age', () => {
+    expect(galacticAge.martianAge()).toEqual(16);
+  });
+
 });
