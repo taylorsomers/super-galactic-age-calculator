@@ -1,18 +1,3 @@
-Get Started:
-
-FIRST: [REMEMBER TO (1) CHANGE package.json PROJECT NAME AND DESCRIPTION TO CURRENT PROJECT NAME AND DESCRIPTION, (2) CHANGE TITLE OF HtmlWebpackPlugin IN webpack.config.js TO CURRENT PROJECT NAME, AND (3) CHANGE TITLE OF project-name.js IN SRC DIRECTORY TO NAME OF CURRENT PROJECT.]
-
-SECOND:
-  $ npm install
-  $ npm install dotenv-webpack --save-dev
-  $ git init
-  $ git add .gitignore
-  $ git commit -m "Activate .gitignore"
-  $ npm run build
-  $ git add .
-  $ git commit -m "Initial global commit"
-  $ npm run start
-
 # Super Galactic Age Calculator
 
   ### By Taylor Somers
