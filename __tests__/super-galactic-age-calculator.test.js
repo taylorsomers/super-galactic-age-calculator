@@ -11,7 +11,7 @@ describe('CalculateAge', () => {
   });
 
   test('should convert terrestrialAge property of galacticAge object to Mercurial age', () => {
-    expect(galacticAge.mercurialAge()).toEqual(30);
+    expect(galacticAge.mercurialAge()).toEqual(125.1);
   });
 
 });
