@@ -1,7 +1,7 @@
 import { GalacticAge } from './../src/super-galactic-age-calculator.js';
 
 describe('CalculateAge', () => {
-  
+  let galacticAge;
   beforeEach(() => {
     galacticAge = new GalacticAge(30);
   });
