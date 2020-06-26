@@ -54,8 +54,10 @@ describe('CalculateAge', () => {
   test('should convert number of Terrestrial years left until user reaches average human lifespan into Venusian years', () => {
     galacticAge.planetaryYears();
     galacticAge.planetaryYearsLeft();
-    let mercurialYearsLeft = galacticAge.planetaryYearsRemaining[1];
-    expect(mercurialYearsLeft).toEqual(68);
+    let venusianYearsLeft = galacticAge.planetaryYearsRemaining[1];
+    expect(venusianYearsLeft).toEqual(68);
   });
+
+
 
 });
