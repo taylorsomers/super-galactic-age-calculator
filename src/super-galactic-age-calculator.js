@@ -23,4 +23,9 @@ export class GalacticAge {
     return jovianAge;
   }
 
+  terrestrialYearsLeft() {
+    let terrestrialYearsLeft = 72-this.terrestrialAge;
+    return terrestrialYearsLeft;
+  }
+
 }
