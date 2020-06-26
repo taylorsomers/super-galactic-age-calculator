@@ -27,7 +27,8 @@ describe('CalculateAge', () => {
   });
 
   test('should subtract inputted user age in Terrestrial years from average life expectancy in Terrestrial years', () => {
-    expect(galacticAge.terrestrialYearsLeft()).toEqual(42);
+    galacticAge.terrestrialYearsLeft();
+    expect(galacticAge.terrestrialYearsLeft).toEqual(42);
   });
 
   test('should add planetaryAges property containing array of ages in other planetary years to galacticAge object', () => {
