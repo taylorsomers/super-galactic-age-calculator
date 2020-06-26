@@ -11,9 +11,9 @@ export class GalacticAge {
   }
 
   planetaryYearsLeft() {
-    let planetLifespan = [300,116];
+    let planetLifespan = [300,116,38];
     this.planetaryYearsRemaining = [];
-    for (let i = 0; i < 2; i++){
+    for (let i = 0; i < 3; i++){
       this.planetaryYearsRemaining.push(parseInt((planetLifespan[i]-this.planetaryAges[i]).toFixed(0)));
     }
   }
