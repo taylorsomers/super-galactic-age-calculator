@@ -93,4 +93,11 @@ describe('CalculateAge', () => {
     expect(venusianYearsLeft).toEqual("13 over");
   });
 
+  test('should calculate number of Martian years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
+    galacticSeniorAge.planetaryYears();
+    galacticSeniorAge.planetaryYearsLeft();
+    let martianYearsLeft = galacticSeniorAge.planetaryYearsRemaining[2];
+    expect(martianYearsLeft).toEqual("4 over");
+  });
+
 });
