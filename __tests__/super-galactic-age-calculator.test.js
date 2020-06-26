@@ -86,4 +86,12 @@ describe('CalculateAge', () => {
     expect(mercurialYearsLeft).toEqual("34 over");
   });
 
+  test('should calculate number of Venusian years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
+    let galacticSeniorAge = new GalacticAge(80);
+    galacticSeniorAge.planetaryYears();
+    galacticSeniorAge.planetaryYearsLeft();
+    let venusianYearsLeft = galacticSeniorAge.planetaryYearsRemaining[1];
+    expect(venusianYearsLeft).toEqual("34 over");
+  });
+
 });
