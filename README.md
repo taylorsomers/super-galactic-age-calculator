@@ -46,7 +46,7 @@
   | Program will convert user-inputted age in Terrestrial years to Mercurial years. | "terrestrialAge: 30" | "mercurialAge: 125" |
   | Program will convert user-inputted age in Terrestrial years to Venusian years. | "terrestrialAge: 30" | "venusianAge: 48" |
   | Program will convert user-inputted age in Terrestrial years to Martian years. | "terrestrialAge: 30" | "martianAge: 16" |
-  | Program will convert user-inputted age in Terrestrial years to Jovian years. |  |  |
+  | Program will convert user-inputted age in Terrestrial years to Jovian years. | "terrestrialAge: 30" | "jovianAge: 2" |
   | Program will calculate average remaining life expectancy for an individual of the user-inputted age in Terrestrial years. |  |  |
   | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Mercurial years. |  |  |
   | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Venusian years. |  |  |
