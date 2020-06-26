@@ -42,7 +42,21 @@
 
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  |  |  |  |
+  | Program will detect inputted user age in Terrestrial years. |  |  |
+  | Program will convert user-inputted age in Terrestrial years to Mercurial years. |  |  |
+  | Program will convert user-inputted age in Terrestrial years to Venusian years. |  |  |
+  | Program will convert user-inputted age in Terrestrial years to Martian years. |  |  |
+  | Program will convert user-inputted age in Terrestrial years to Jovian years. |  |  |
+  | Program will calculate average remaining life expectancy for an individual of the user-inputted age in Terrestrial years. |  |  |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Mercurial years. |  |  |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Venusian years. |  |  |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Martian years. |  |  |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Jovian years. |  |  |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will calculate the number of Terrestrial years the user has lived beyond that average. |  |  |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Mercurial years. |  |  |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Venusian years. |  |  |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Martian years. |  |  |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Jovian years. |  |  |
   
 
 ## Known Bugs
