@@ -32,7 +32,7 @@ describe('CalculateAge', () => {
   });
 
   test('should add planetaryAges property containing array of ages in other planetary years to galacticAge object', () => {
-    galacticAge.planetaryAges();
+    galacticAge.planetaryYears();
     expect(galacticAge.planetaryAges).toEqual([125,48,16,2]);
   });
 
