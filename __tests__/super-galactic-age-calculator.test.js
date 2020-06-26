@@ -69,7 +69,7 @@ describe('CalculateAge', () => {
     galacticAge.planetaryYears();
     galacticAge.planetaryYearsLeft();
     let jovianYearsLeft = galacticAge.planetaryYearsRemaining[3];
-    expect(jovianYearsLeft).toEqual(22);
+    expect(jovianYearsLeft).toEqual(4);
   });
 
 });
