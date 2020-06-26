@@ -4,8 +4,13 @@ export class GalacticAge {
   }
 
   mercurialAge() {
-    let mercurialAge = this.terrestrialAge*4.17
+    let mercurialAge = parseInt((this.terrestrialAge*4.17).toFixed(0));
     return mercurialAge;
+  }
+
+  venusianAge() {
+    let venusianAge = parseInt((this.terrestrialAge*1.61).toFixed(0));
+    return venusianAge;
   }
 
 }
