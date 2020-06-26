@@ -76,35 +76,35 @@ describe('CalculateAge', () => {
 
   test('should calculate number of Terrestrial years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
     galacticSeniorAge.terrestrialYearsLeft();
-    expect(galacticSeniorAge.terrestrialYearsLeft).toEqual("13 over");
+    expect(galacticSeniorAge.terrestrialYearsLeft).toEqual("13 year(s) longer than average");
   });
 
   test('should calculate number of Mercurial years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
     galacticSeniorAge.planetaryYears();
     galacticSeniorAge.planetaryYearsLeft();
     let mercurialYearsLeft = galacticSeniorAge.planetaryYearsRemaining[0];
-    expect(mercurialYearsLeft).toEqual("54 over");
+    expect(mercurialYearsLeft).toEqual("54 year(s) longer than average");
   });
 
   test('should calculate number of Venusian years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
     galacticSeniorAge.planetaryYears();
     galacticSeniorAge.planetaryYearsLeft();
     let venusianYearsLeft = galacticSeniorAge.planetaryYearsRemaining[1];
-    expect(venusianYearsLeft).toEqual("21 over");
+    expect(venusianYearsLeft).toEqual("21 year(s) longer than average");
   });
 
   test('should calculate number of Martian years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
     galacticSeniorAge.planetaryYears();
     galacticSeniorAge.planetaryYearsLeft();
     let martianYearsLeft = galacticSeniorAge.planetaryYearsRemaining[2];
-    expect(martianYearsLeft).toEqual("7 over");
+    expect(martianYearsLeft).toEqual("7 year(s) longer than average");
   });
 
   test('should calculate number of Jovian years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
     galacticSeniorAge.planetaryYears();
     galacticSeniorAge.planetaryYearsLeft();
     let jovianYearsLeft = galacticSeniorAge.planetaryYearsRemaining[3];
-    expect(jovianYearsLeft).toEqual("1 over");
+    expect(jovianYearsLeft).toEqual("1 year(s) longer than average");
   });
 
 });

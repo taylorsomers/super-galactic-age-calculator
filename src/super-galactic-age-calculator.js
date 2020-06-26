@@ -13,7 +13,7 @@ export class GalacticAge {
     this.planetaryYearsRemaining = [];
     for (let i = 0; i < 4; i++){
       if (this.planetaryAges[i] > planetLifespan[i]) {
-        this.planetaryYearsRemaining.push(((this.planetaryAges[i]-planetLifespan[i]).toFixed(0)) + " over");
+        this.planetaryYearsRemaining.push(((this.planetaryAges[i]-planetLifespan[i]).toFixed(0)) + " year(s) longer than average");
       } else {
         this.planetaryYearsRemaining.push(parseInt((planetLifespan[i]-this.planetaryAges[i]).toFixed(0)));
       }
@@ -21,7 +21,7 @@ export class GalacticAge {
   }
   terrestrialYearsLeft() {
     if (this.terrestrialAge > 72) {
-      this.terrestrialYearsLeft = (this.terrestrialAge-72).toString() + " over";
+      this.terrestrialYearsLeft = (this.terrestrialAge-72).toString() + " year(s) longer than average";
     } else {
       this.terrestrialYearsLeft = 72-this.terrestrialAge;
     }
