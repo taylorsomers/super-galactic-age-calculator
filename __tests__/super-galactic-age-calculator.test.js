@@ -78,4 +78,12 @@ describe('CalculateAge', () => {
     expect(galacticSeniorAge.terrestrialYearsLeft).toEqual("8 over");
   });
 
+  test('should calculate number of Mercurial years over average life expectancy a user-inputted age is, if it is over average life expectancy', () => {
+    let galacticSeniorAge = new GalacticAge(80);
+    galacticSeniorAge.planetaryYears();
+    galacticSeniorAge.planetaryYearsLeft();
+    let mercurialYearsLeft = galacticSeniorAge.planetaryYearsRemaining[0];
+    expect(mercurialYearsLeft).toEqual("34 over");
+  });
+
 });
