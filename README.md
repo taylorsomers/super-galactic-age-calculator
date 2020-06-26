@@ -43,7 +43,7 @@
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
   | Program will detect inputted user age in Terrestrial years. | "galacticAge = new GalacticAge(30)" | "terrestrialAge: 30" |
-  | Program will convert user-inputted age in Terrestrial years to Mercurial years. |  |  |
+  | Program will convert user-inputted age in Terrestrial years to Mercurial years. | "terrestrialAge: 30" | "mercurialAge: 125.1" |
   | Program will convert user-inputted age in Terrestrial years to Venusian years. |  |  |
   | Program will convert user-inputted age in Terrestrial years to Martian years. |  |  |
   | Program will convert user-inputted age in Terrestrial years to Jovian years. |  |  |
