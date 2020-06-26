@@ -22,4 +22,8 @@ describe('CalculateAge', () => {
     expect(galacticAge.martianAge()).toEqual(16);
   });
 
+  test('should convert terrestrialAge property of galacticAge object to Jovian age', () => {
+    expect(galacticAge.jovianAge()).toEqual(2);
+  });
+
 });
