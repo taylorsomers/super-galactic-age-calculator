@@ -19,7 +19,11 @@ export class GalacticAge {
   }
 
   terrestrialYearsLeft() {
-    this.terrestrialYearsLeft = 72-this.terrestrialAge;
+    if (this.terrestrialAge > 72) {
+      this.terrestrialYearsLeft = (this.terrestrialAge-72).toString() + " over";
+    } else {
+      this.terrestrialYearsLeft = 72-this.terrestrialAge;
+    }
   }
 
 }
