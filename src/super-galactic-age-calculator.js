@@ -10,6 +10,14 @@ export class GalacticAge {
     });
   }
 
+  planetaryYearsLeft() {
+    let planetLifespan = [300,116,38,6];
+    this.planetaryYearsRemaining = [];
+    for (let i = 0; i < 4; i++){
+      this.planetaryYearsRemaining.push(parseInt((planetLifespan[i]-this.planetaryAges[i]).toFixed(0)));
+    }
+  }
+
   terrestrialYearsLeft() {
     this.terrestrialYearsLeft = 72-this.terrestrialAge;
   }
