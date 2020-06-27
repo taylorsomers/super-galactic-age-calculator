@@ -16,9 +16,17 @@ $(document).ready(function() {
     for (let i = 0; i < 4; i++){
       $("ul#output").append("<li>Your age in " + planetLabels[i] + " years is " + galacticAge.planetaryAges[i] + " years.</li>");
     }
-    $("ul#output").append("<li>You have " + galacticAge.terrestrialYearsLeft + " years until you reach average human life expectancy.</li>");
-    // for (let i = 0; i < 4; i++){
-    //   $("ul#output").append("<li>You have " + galacticAge.terrestrialYearsLeft + " years until you reach average human life expectancy.</li>");
-    // }
+    if (galacticAge.terrestrialAge > 72) {
+      $("ul#output").append("<li>You have lived " + galacticAge.terrestrialYearsLeft + " human life expectancy.</li>");
+    } else {
+      $("ul#output").append("<li>You have " + galacticAge.terrestrialYearsLeft + " Terrestrial years until you reach average human life expectancy.</li>");
+    }
+    for (let i = 0; i < 4; i++){
+      if (galacticAge.terestrialAge > 72) {
+        $("ul#output").append("<li>You have lived " + galacticAge.planetaryYearsRemaining[i] + " human life expectancy.</li>");
+      } else {
+        $("ul#output").append("<li>You have " + galacticAge.planetaryYearsRemaining[i] + " " + planetLabels[i] + " years until you reach average human life expectancy.</li>");
+      }
+    }
   });
 });
