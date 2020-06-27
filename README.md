@@ -9,8 +9,6 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
-  * Bootstrap
-  * CSS
   * HTML
   * JavaScript
   * jQuery
@@ -42,13 +40,13 @@
 
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  | Program will detect inputted user age in Terrestrial years. | "galacticAge = new GalacticAge(30)" | "terrestrialAge: 30" |
-  | Program will convert user-inputted age in Terrestrial years to Mercurial years. | "terrestrialAge: 30" | "mercurialAge: 125" |
-  | Program will convert user-inputted age in Terrestrial years to Venusian years. | "terrestrialAge: 30" | "venusianAge: 48" |
-  | Program will convert user-inputted age in Terrestrial years to Martian years. | "terrestrialAge: 30" | "martianAge: 16" |
-  | Program will convert user-inputted age in Terrestrial years to Jovian years. | "terrestrialAge: 30" | "jovianAge: 2" |
-  | Program will calculate average remaining life expectancy for an individual of the user-inputted age in Terrestrial years. | "terrestrialAge: 30" | "terrestrialYearsLeft: 42" |
-  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Mercurial years. |  |  |
+  | Program will detect inputted user age in Terrestrial years. | "Input: 30" | "Output: 30" |
+  | Program will convert user-inputted age in Terrestrial years to Mercurial years. | "Input: 30" | "Output: 125" |
+  | Program will convert user-inputted age in Terrestrial years to Venusian years. | "Input: 30" | "Output: 48" |
+  | Program will convert user-inputted age in Terrestrial years to Martian years. | "Input: 30" | "Output: 16" |
+  | Program will convert user-inputted age in Terrestrial years to Jovian years. | "Input: 30" | "Output: 2" |
+  | Program will calculate average remaining life expectancy for an individual of the user-inputted age in Terrestrial years. | "Input: 30" | "Output: 42" |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Mercurial years. | "Input: 30" | "Output: 42" |
   | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Venusian years. |  |  |
   | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Martian years. |  |  |
   | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Jovian years. |  |  |
