@@ -4,7 +4,7 @@
 
 ## Description
 
-  [Description of program functionality & intent presented as an elevator pitch.]
+  This program was created as an independent project for the full-time Epicodus C# & React coding bootcamp. It was created with JavaScript and jQuery in a WebPack environment, and is the first independent project we have built using WebPack. The program itself takes in a user's age and calculates what their age would be on Mercury, Venus, Mars, and Jupiter. It also calculates the number of years remaining until the user reaches the average human lifespan, and converts that number into Mercurial, Venusian, Martian, and Jovian years. If a user enters an age that is over the average human lifespan, the program states how many years longer than average the user has lived, and converts this number to Mercurial, Venusian, Martian, and Jovian years as well.
 
 ## Languages & Technologies Used:
 
@@ -47,19 +47,19 @@
   | Program will convert user-inputted age in Terrestrial years to Jovian years. | "Input: 30" | "Output: 2" |
   | Program will calculate average remaining life expectancy for an individual of the user-inputted age in Terrestrial years. | "Input: 30" | "Output: 42" |
   | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Mercurial years. | "Input: 30" | "Output: 42" |
-  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Venusian years. |  |  |
-  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Martian years. |  |  |
-  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Jovian years. |  |  |
-  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will calculate the number of Terrestrial years the user has lived beyond that average. |  |  |
-  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Mercurial years. |  |  |
-  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Venusian years. |  |  |
-  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Martian years. |  |  |
-  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Jovian years. |  |  |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Venusian years. | "Input: 30" | "Output: 68" |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Martian years. | "Input: 30" | "Output: 22" |
+  | Program will convert average remaining life expectancy for an individual of the user-inputted age in Terrestrial years into Jovian years. | "Input: 30" | "Output: 4" |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will calculate the number of Terrestrial years the user has lived beyond that average. | "Input: 85" | "You have lived 13 year(s) longer than average human life expectancy." |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Mercurial years. | "Input: 85" | "You have lived 54 Mercurial year(s) longer than average humal life expectancy." |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Venusian years. | "Input: 85" | "You have lived 21 Venusian year(s) longer than average human life expectancy." |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Martian years. | "Input: 85" | "You have lived 7 Martian year(s) longer than average human life expectancy." |
+  | If the user-inputted age in Terrestrial years is higher than the average human life expectancy, the program will convert the number of Terrestrial years the user has lived beyond that average to Jovian years. | "Input: 85" | "You have lived 1 Jovian year(s) longer than average human life expectancy." |
   
 
 ## Known Bugs
 
-  * No known bugs at this time. If any are discovered, please feel free to reach out and let me know. If you would like to contribute any fixes or improvements, please do!
+  * The only known bug at this time is that I have not been able to get the correct wording for some of the calculations to print to the DOM, though the calculations themselves (*i.e.*, the math) are accurate. This is likely a quick fix, but not a high priority at this time as it does not affect the business logic of the program. If any others are discovered, please feel free to reach out and let me know. If you would like to contribute any fixes or improvements, please do!
 
 ### Contributors
 
